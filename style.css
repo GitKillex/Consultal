@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(250, 250, 250);
+}
+
+.nav {
+  padding: 36px 0;
+}
+.nav .first__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .first__nav p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav .first__nav ul {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .first__nav ul li {
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav .first__nav ul .nav__icons {
+  width: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav #block {
+  display: none;
+}
+.nav #block ul {
+  list-style: none;
+}
+
+.header__holder {
+  padding: 120px 0;
+  text-align: center;
+}
+.header__holder h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+}
+.header__holder p {
+  padding: 40px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(115, 115, 115);
+  line-height: 30px;
+}
+.header__holder .header__buttons {
+  text-align: center;
+  width: 50vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__holder .header__buttons button {
+  padding: 10px 36px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 27px;
+  border: none;
+  background-color: rgb(255, 123, 71);
+  color: #fff;
+}
+.header__holder .header__buttons #gr_btn {
+  color: rgb(13, 92, 99);
+  border: 1px solid rgb(13, 92, 99);
+  background-color: #fff;
+}
+
+.industry {
+  padding: 100px;
+}
+.industry .industry__header {
+  padding: 45px;
+  text-align: center;
+}
+.industry .industry__header h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.industry .industry__header p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(115, 115, 115);
+}
+.industry .industry__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.industry .industry__holder .industry__item {
+  width: 32%;
+}
+.industry .industry__holder .industry__item .cards__item {
+  margin-bottom: 20px;
+  padding: 35px 40px;
+  border: 1px solid rgb(232, 232, 232);
+}
+.industry .industry__holder .industry__item .cards__item .expl {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.industry .industry__holder .industry__item .cards__item .expl h1 {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.who {
+  background-color: rgb(243, 243, 243);
+  padding: 80px 0;
+}
+.who .who__header {
+  text-align: center;
+}
+.who .who__header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.who .who__header p {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(115, 115, 115);
+}
+.who .who__holder {
+  position: relative;
+}
+.who .who__holder img {
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+}
+.who .who__holder #play {
+  position: absolute;
+  z-index: 2;
+  left: 36%;
+  top: 23vh;
+}
+
+.clients {
+  background-color: rgb(243, 243, 243);
+  padding: 80px 0;
+}
+.clients .clients__header {
+  text-align: center;
+}
+.clients .clients__header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.clients .clients__header p {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(115, 115, 115);
+}
+.clients .clients__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.clients .clients__holder .clients__item {
+  width: 25%;
+  background-color: #fff;
+  padding: 30px 35px;
+}
+.clients .clients__holder .clients__item .cl__icons {
+  display: flex;
+}
+.clients .clients__holder .clients__item .cl__icons i {
+  color: rgb(243, 205, 3);
+  padding-right: 5px;
+}
+.clients .clients__holder .clients__item p {
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(115, 115, 115);
+}
+.clients .clients__holder .clients__item .cl {
+  display: flex;
+}
+.clients .clients__holder .clients__item .cl .cl__name {
+  padding-left: 15px;
+}
+.clients .clients__holder .clients__item .cl .cl__name h1 {
+  padding-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(255, 123, 71);
+}
+.clients .clients__holder .clients__item .cl .cl__name p {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.team {
+  padding-bottom: 92px;
+}
+.team .team__header {
+  text-align: center;
+  padding: 80px 0;
+}
+.team .team__header h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 57px;
+}
+.team .team__header p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(115, 115, 115);
+}
+.team .team__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.team .team__holder .team__item {
+  width: 30%;
+  text-align: center;
+  border: 1px solid rgb(238, 238, 238);
+}
+.team .team__holder .team__item h1 {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.team .team__holder .team__item p {
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(115, 115, 115);
+}
+.team .team__holder .team__item .team__icons {
+  width: 30%;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.team .team__holder .team__item .team__icons i {
+  font-size: 25px;
+  color: rgb(13, 92, 99);
+}
+
+.app {
+  padding: 90px 0;
+  background-image: url(./appointment/app-bg.png);
+  background-size: cover;
+}
+.app .app__header h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.app .app__header h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.app .app__holder {
+  width: 55%;
+}
+.app .app__holder form {
+  padding: 40px 0;
+  width: 90%;
+}
+.app .app__holder form .f__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.app .app__holder form .f__row input {
+  width: 40%;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.app .app__holder form .s__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.app .app__holder form .s__row input {
+  width: 40%;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.app .app__holder form textarea {
+  width: 96%;
+  height: 35vh;
+  padding: 10px 0 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.app .app__holder .app__btn button {
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  background-color: rgb(255, 123, 71);
+  border: none;
+}
+
+.consult {
+  padding: 40px 0;
+}
+.consult .consult__holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.consult .consult__holder .consult__item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.consult .consult__holder .consult__item p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(115, 115, 115);
+}
+.consult .consult__holder .consult__item button {
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  background-color: rgb(255, 123, 71);
+  border: none;
+}
+
+.footer {
+  background-color: rgb(37, 43, 66);
+  color: #fff;
+}
+.footer .footer__header {
+  padding: 55px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__header h1 {
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 32px;
+}
+.footer .footer__header .footer__icons {
+  display: flex;
+}
+.footer .footer__header .footer__icons i {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.footer .footer__header .footer__icons #face {
+  color: rgb(51, 91, 245);
+}
+.footer .footer__header .footer__icons #inst {
+  color: rgb(229, 31, 90);
+}
+.footer .footer__header .footer__icons #twit {
+  color: rgb(33, 166, 223);
+}
+.footer .footer__header .footer__icons #yout {
+  color: rgb(228, 47, 8);
+}
+.footer .footer__holder {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__holder .footer__item {
+  width: 29%;
+}
+.footer .footer__holder .footer__item h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.footer .footer__holder .footer__item p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 10px;
+  color: rgb(189, 189, 189);
+}
+.footer .footer__holder .footer__item .footer__form {
+  display: flex;
+}
+.footer .footer__holder .footer__item .footer__form input {
+  padding: 10px 20px;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footer .footer__holder .footer__item .footer__form button {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: rgb(255, 123, 71);
+  border: none;
+}
+
+.end {
+  background-color: rgb(23, 33, 60);
+  padding: 25px;
+}
+.end p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .header .nav {
+    width: 100%;
+  }
+  .header .nav .first__nav p {
+    width: 50%;
+  }
+  .header .nav .first__nav ul {
+    width: auto;
+  }
+  .header .nav .first__nav ul li {
+    display: none;
+  }
+  .header .nav .first__nav ul #search, .header .nav .first__nav ul #cart {
+    display: block;
+  }
+  .header .nav #block {
+    padding-top: 65px;
+    text-align: center;
+    display: block;
+  }
+  .header .nav #block li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    color: rgb(115, 115, 115);
+    padding-bottom: 15px;
+  }
+  .header .header__holder {
+    padding-bottom: 40px;
+    background-color: #fff;
+  }
+  .header .header__holder h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .header .header__holder p {
+    width: 57%;
+    margin: auto;
+    font-size: 20px;
+  }
+  .header .header__holder .header__buttons {
+    flex-direction: column;
+  }
+  .header .header__holder .header__buttons button {
+    margin-bottom: 20px;
+  }
+  .industry {
+    padding: 30px 0;
+    padding-bottom: 160px;
+  }
+  .industry .industry__header {
+    padding: 45px 0;
+    width: 60%;
+    margin: auto;
+  }
+  .industry .industry__holder {
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .industry .industry__holder .industry__item {
+    width: 80%;
+  }
+  .industry .industry__holder .industry__item .cards__item {
+    width: 100%;
+  }
+  .who .who__header {
+    width: 65%;
+    margin: auto;
+  }
+  .who .who__holder img {
+    width: 85%;
+  }
+  .who .who__holder #play {
+    left: 37%;
+    top: 16vh;
+    width: 45px;
+  }
+  .clients {
+    background-color: rgb(250, 250, 250);
+  }
+  .clients .clients__header p {
+    padding-bottom: 60px;
+  }
+  .clients .clients__holder {
+    width: 100%;
+    flex-direction: column;
+  }
+  .clients .clients__holder .clients__item {
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+  }
+  .team .team__header {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 45px;
+  }
+  .team .team__holder {
+    width: 75%;
+    margin: 30px auto;
+    flex-direction: column;
+  }
+  .team .team__holder .team__item {
+    width: 102%;
+    margin: 30px 0;
+  }
+  .app .app__header {
+    width: 80%;
+    margin: auto;
+  }
+  .app .app__holder {
+    width: 80%;
+    margin: auto;
+  }
+  .app .app__holder form .f__row {
+    width: 100%;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+  .app .app__holder form .f__row input {
+    width: 97%;
+    margin-bottom: 20px;
+  }
+  .app .app__holder form .s__row {
+    width: 100%;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+  .app .app__holder form .s__row input {
+    width: 97%;
+    margin-bottom: 20px;
+  }
+  .app .app__holder form textarea {
+    width: 104.5%;
+    height: 40vh;
+  }
+  .app .app__holder form .app__btn {
+    width: 100%;
+  }
+  .app .app__holder form .app__btn button {
+    padding: 15px 74px;
+  }
+  .consult .consult__holder {
+    flex-direction: column;
+  }
+  .consult .consult__holder .consult__item {
+    width: 60%;
+  }
+  .consult .consult__holder .consult__item p {
+    padding-bottom: 30px;
+  }
+  .footer .footer__header {
+    flex-direction: column;
+    width: 50%;
+  }
+  .footer .footer__header h1 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .footer .footer__holder {
+    padding-bottom: 0;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .footer .footer__holder .footer__item {
+    width: 80%;
+    padding-bottom: 30px;
+  }
+  .end .end__holder {
+    width: 90%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
